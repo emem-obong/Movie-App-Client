@@ -1,0 +1,6 @@
+ .movie_card img{
+    width: 100%;
+    min-width: 164px;
+    min-height: 110px;
+    aspect-ratio: 16/9;
+ }

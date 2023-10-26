@@ -1,0 +1,78 @@
+:root {
+  --red: #fc4747;
+  --white: #ffffff;
+  --dark-grey: #10141e;
+  --light-grey: #161d2f;
+  --very-light-grey: #5a698f;
+}
+
+#root {
+  text-align: center;
+  background-color: var(--dark-grey);
+  color: var(--white);
+  min-height: 100vh;
+}
+.custom-text-red {
+  color: var(--red);
+}
+
+.custom-bg-red{
+  background-color: var(--red);
+}
+
+.custom-bg-dark-grey{
+  background-color: var(--dark-grey);
+}
+
+.custom-bg-light-grey{
+  background-color: var(--light-grey);
+}
+/* =========================================== */
+
+form{
+  width: 90%;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+input{
+  border: none;
+  border-bottom:1px solid var(--very-light-grey);
+  color: var(--white);
+  caret-color: var(--red);
+
+}
+
+input:hover{
+  /* cursor: pointer; */
+  border-bottom: 1px solid var(--white);
+}
+input:focus{
+  outline: none;
+}
+
+input.error{
+  border-bottom: 1px solid red;
+}
+button{
+  color: var(--white);
+  transition: 0.3s ease-in-out;
+}
+
+button:hover{
+background-color: var(--white);
+color: var(--dark-grey);
+}
+.eye{
+  cursor: pointer;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media(width > 768px){
+  .grid{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
