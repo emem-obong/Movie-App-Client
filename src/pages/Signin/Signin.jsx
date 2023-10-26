@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Signin.css";
 import Showeye from "../../components/Showeye/Showeye";
 import { useForm } from "react-hook-form";
-import Spinner from "../../utils/spinner";
+import Spinner from "../../utils/Spinner";
 import useAuth from "../../hooks/UseAuth";
 
 const Signin = () => {
