@@ -3,7 +3,7 @@ import { MdMovie, MdSpaceDashboard } from "react-icons/md";
 import { RiFilmFill } from "react-icons/ri";
 import { PiTelevisionFill } from "react-icons/pi";
 import { BsFillBookmarkFill } from "react-icons/bs";
-import "./Sidebar.css"
+import "../Sidebar.css"
 
 import logo from "../../assets/react.svg";
 import { Link, useLocation } from "react-router-dom";
