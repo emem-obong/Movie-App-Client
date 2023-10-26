@@ -1,27 +1,26 @@
-  
-@media (width > 768px){
-    .sidebar{
-        border-radius: 8px;
-    }
+@media (width > 768px) {
+  .sidebar {
+    border-radius: 8px;
+  }
 }
-@media (width > 1200px){
-    .sidebar{
-       height: 90vh;
-    }
-}
-
-.my-dropdown{
-    z-index: 2;
-    right: 0;
+@media (width > 1200px) {
+  .sidebar {
+    height: 90vh;
+  }
 }
 
-@media(width > 1200px){
-    .my-dropdown{
+.my-dropdown {
+  z-index: 2;
+  right: 0;
+}
+
+@media (width > 1200px) {
+  .my-dropdown {
     top: -350%;
     right: -50%;
-    }
+  }
 }
 
-.sidebar img{
-    cursor: pointer;
+.sidebar img {
+  cursor: pointer;
 }
